@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="stles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Restaurant</h1>
+        <p>Discover our delicious menu below!</p>
+    </header>
+
+    <main>
+        <section class="menu-category">
+            <h2>Appetizers</h2>
+            <div class="menu-item">
+                <img src="https://media.istockphoto.com/id/174987545/photo/canapes-for-party.jpg?s=2048x2048&w=is&k=20&c=7i4IovqfHeK52kOxp5j_65uPn1oueId3J6yjJk22hKU=" alt="Bruschetta" width="150" height="150" class="menu-image">
+                <h3>Bruschetta</h3>
+                <p>Toasted bread topped with tomatoes, garlic, and basil.</p>
+                <p class="price">$8.00</p>
+                <button onclick="order('Bruschetta')">Order Now</button>
+            </div>
+            <div class="menu-item">
+                <img src="https://bing.com/th?id=OSK.163662522221ef3b41f0b6086963b99a" width="150" height="150"alt="Stuffed Mushrooms" class="menu-image">
+                <h3>Stuffed Mushrooms</h3>
+                <p>Champignon mushrooms stuffed with cheese and herbs.</p>
+                <p class="price">$10.00</p>
+                <button onclick="order('Stuffed Mushrooms')">Order Now</button>
+            </div>
+        </section>
+
+        <section class="menu-category">
+            <h2>Main Courses</h2>
+            <div class="menu-item">
+                <img src="https://media.istockphoto.com/id/1214416414/photo/barbecued-salmon-fried-potatoes-and-vegetables-on-wooden-background.jpg?s=612x612&w=0&k=20&c=Y8RYbZFcvec-FXMMuoU-qkprC3TUFNiw3Ysoe8Drn6g=" width="150" height="150" alt="Grilled Salmon" class="menu-image">
+                <h3>Grilled Salmon</h3>
+                <p>Fresh salmon grilled to perfection with lemon.</p>
+                <p class="price">$18.00</p>
+                <button onclick="order('Grilled Salmon')">Order Now</button>
+            </div>
+            <div class="menu-item">
+                <img src="https://media.istockphoto.com/id/1214416414/photo/barbecued-salmon-fried-potatoes-and-vegetables-on-wooden-background.jpg?s=612x612&w=0&k=20&c=Y8RYbZFcvec-FXMMuoU-qkprC3TUFNiw3Ysoe8Drn6g=" width="150" height="150"alt="Vegetable Stir Fry" class="menu-image">
+                <h3>Vegetable Stir Fry</h3>
+                <p>Seasonal vegetables sautéed in a savory sauce.</p>
+                <p class="price">$14.00</p>
+                <button onclick="order('Vegetable Stir Fry')">Order Now</button>
+            </div>
+        </section>
+
+        <section class="menu-category">
+            <h2>Desserts</h2>
+            <div class="menu-item">
+                <img src="https://scientificallysweet.com/wp-content/uploads/2023/06/IMG_4087-er-new1-720x910.jpg"  width="150" height="150" alt="Chocolate Cake" class="menu-image">
+                <h3>Chocolate Cake</h3>
+                <p>Rich chocolate cake with creamy frosting.</p>
+                <p class="price">$7.00</p>
+                <button onclick="order('Chocolate Cake')">Order Now</button>
+            </div>
+            <div class="menu-item">
+                <img src="https://hips.hearstapps.com/hmg-prod/images/fruit-tart-recipe-3-1650464619.jpg?crop=0.8888888888888888xw:1xh;center,top&resize=1200:*"width="150" height="150" alt="Fruit Tart" class="menu-image">
+                <h3>Fruit Tart</h3>
+                <p>Delicious tart topped with seasonal fruits.</p>
+                <p class="price">$6.00</p>
+                <button onclick="order('Fruit Tart')">Order Now</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Our Restaurant. All rights reserved.</p>
+    </footer>
+
+    <script src="scrit.js"></script>
+</body>
+</html>
